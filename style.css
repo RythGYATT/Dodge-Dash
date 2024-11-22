@@ -1,0 +1,24 @@
+/* General styling */
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #1e293b, #64748b); /* Gradient background */
+}
+
+/* Game title */
+h1 {
+    text-align: center;
+    color: #f8fafc;
+    margin: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Game canvas */
+canvas {
+    display: block;
+    margin: 20px auto;
+    background: #0f172a; /* Dark blue canvas */
+    border: 5px solid #94a3b8; /* Light blue border */
+}
